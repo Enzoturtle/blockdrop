@@ -7,7 +7,7 @@ Done! It appears on your home screen like a real app, fullscreen, no browser chr
 
 
 Just send them the URL:
-`https://YOUR-GITHUB-USERNAME.github.io/blockdrop`
+`https://enzoturtle.github.io/blockdrop`
 
 They can play in browser OR install it the same way.
 Scores submit to the shared leaderboard automatically.
