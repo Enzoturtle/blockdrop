@@ -1,5 +1,11 @@
 const CACHE = 'blockdrop-v1';
-const ASSETS = ['/', '/index.html', '/manifest.json', '/icon-192.png', '/icon-512.png'];
+const ASSETS = [
+  '/blockdrop/',
+  '/blockdrop/index.html',
+  '/blockdrop/manifest.json',
+  '/blockdrop/icon-192.png',
+  '/blockdrop/icon-512.png'
+];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
